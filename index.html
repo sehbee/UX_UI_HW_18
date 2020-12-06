@@ -2,7 +2,10 @@
 <html>
     <link rel="stylesheet" href="css/index.css">
     <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
-    <script src="js/index.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js?ver=1.4.2"></script>
+
     <head>
         <title>Joe Lee</title>
     </head>
@@ -22,6 +25,7 @@
                     <img class="down-arrow" src="images/down-arrow.svg">
                 </div>
                 <a class="about" href="blank">About</a>
+                
             
             </div>
         </header>
@@ -31,16 +35,11 @@
             </div>
             <div class="hero-content">
                 <h1>hey there!</h1>
-                <h2>I'm Joe, <span>a UX Designer</span> based in Los Angeles, CA with a passion for intuitive and inclusive design.</h2>
+                <h2>I'm Joe, <span id="whoami">a UX Designer</span> based in Los Angeles, CA with a passion for intuitive and inclusive design.</h2>
             </div>
         </section>
-        <section class="work-link-section">
-            <div class="work-link">
-                <h3>See My Work</h3>
-                <img class="down-arrow" src="images/down-arrow.svg">
-            </div>
-        </section>
-        <section class="portfolio_links">
+        <a id="scrollbutton" href="#portfolio_links">See My Work</a>
+        <section id="portfolio_links">
             <div class="portfolio_link1">
                
                 <a href="portfolio1link">
